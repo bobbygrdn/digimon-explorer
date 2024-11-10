@@ -1,0 +1,15 @@
+#dashboardContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 90vh;
+}
+
+@media (max-width: 600px) {
+    #dashboardContainer {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 1rem;
+    }
+}

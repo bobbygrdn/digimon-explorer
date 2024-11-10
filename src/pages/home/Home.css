@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    main {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    header {
+        position: sticky;
+    }
+}

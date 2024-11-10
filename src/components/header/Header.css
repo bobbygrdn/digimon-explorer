@@ -1,0 +1,21 @@
+#header {
+    height: 10vh;
+    background-color: #333;
+    color: white;
+    text-shadow:
+        -2px -2px 0 var(--secondary-color),
+        2px -2px 0 var(--secondary-color),
+        -2px 2px 0 var(--secondary-color),
+        2px 2px 0 var(--secondary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 600px) {
+    #header {
+        font-size: .75rem;
+    }
+}
